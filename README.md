@@ -12,7 +12,7 @@ Specifically, we use the balanced binary version of the dataset, which has the t
 ## Research Question
 The goal of this project is to investigate whether patterns in health-related behaviors and conditions can be used to accurately predict diabetes risk.
 
-So we ask: **Can clustering individuals into health-risk profiles using k-Means improve the performance and interpretability of a kNN model in predicting diabetes?**
+Question: **Can clustering individuals into health-risk profiles using k-Means improve the performance and interpretability of a kNN model in predicting diabetes?**
 
 
 To answer this question, we first build a baseline kNN model using the original health indicators. We then optimize the model through hyperparameter tuning. Next, we apply k-Means clustering to identify groups of individuals with similar health characteristics. Finally, we evaluate whether adding cluster membership as an additional feature improves diabetes prediction performance.
